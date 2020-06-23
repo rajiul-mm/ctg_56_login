@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+             body{
+                background: url(img/bg.jpg) fixed ;
+                 background-attachment: fixed;
+                 background-clip: content-box;
+                 backface-visibility: visible;
+                 background-size: cover;
+                 margin-top:70px;
+            }
+            
+           
+            img{
+                height: 100px;
+                width: 70px;
+                margin: 0px auto;
+                display: block;
+                color:green;
+            }
+            .form{
+                height: 500px;
+                width: 500px;
+                margin: 0px auto;
+                border-radius: 15px;
+                background-color: rgba(2, 2, 11, 0.48);
+                box-shadow: 2px 9px 30px 5px green;
+            }
+          .form h2{
+              text-align: center;
+              color:white;
+            }
+            .form-control{
+                padding: 10px;
+                border-radius: 10px;
+                border:none;
+                text-align:left;
+                width: 90%;;
+                margin-left: 3%;
+                margin-bottom: 15px;
+                 background: rgba(85, 248, 135, 0.57);
+            
+            }
+            .submit{
+                margin: 6px auto;
+                display: flex;
+                padding: 7px 30px;
+                border: none;
+                border-radius: 5px;
+                background: rgba(0, 183, 0, 0.62);
+                color:white;
+               margin-bottom: 50px;
+                font-weight: bold;
+                
+            }
+            .submit:hover{
+                background: rgba(7, 141, 7, 0.92);
+                transition: 0.6s ease-in-out;
+            }
+            .submit img{
+                height: 15px;
+                width:15px;
+                margin-left: 10px;
+                 margin-top: 2px;
+                margin-right: 0px;
+            }
+            .lbl{
+                margin-left: 5%;
+                color: #f0f0f0;
+                margin-bottom: 2px;
+               
+            }
+            .form a{
+                text-decoration: none;
+                margin-left: 10%;
+                font-family: sans-serif;
+                background: rgba(50, 88, 212, 0.35);
+                padding: 7px;
+                color:white;
+                border-radius: 5px;}
+              .form a:hover {
+                    color:#f4f4f4;
+                    background:transparent;
+                    border: 1px solid #1ee82d;
+                    box-shadow: 2px 0px 9px 3px blue;
+                }
+            }
+            .form a.reset{
+                margin-left:10%;
+            }
+        </style>
+    </head>
+    <body class="container">
+          <div class="form">
+                <img src="img/profile.svg" alt="">
+                <h2>Admin Login</h2>
+                <form>
+                   <label class="lbl">Email:</label> 
+                <input type="email" placeholder="Your email..." class="form-control"><br>
+                  <label class="lbl">Password:</label>
+                <input type="password" placeholder="Your password.." class="form-control"><br>
+                <button type="submit" class="submit">Login<img src="img/login.svg"></button>
+                
+             <a href="register.html">Register Now!</a>
+            <a href="reset.html" class="reset">Reset Account!</a>
+              </div>
+           
+        </form>
+        
+    </body>
+</html>

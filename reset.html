@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reset</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            background: url(img/bg.jpg) fixed;
+            background-size: cover;
+        }
+        .container{
+            width:500px;
+            height: 500px;
+            background-color:rgba(0, 255, 255, 0.37); 
+            margin: 0px auto;
+            display: block;
+            margin-top: 10%;
+            margin: 0px auto;
+            border-radius: 15px;
+            box-shadow: 2px 9px 30px 5px green;
+            margin-top: 5%;
+
+        }
+        .rsticon{
+            height: 100px;
+            width: 200px;
+            margin: 0px auto;
+            display: block;
+            margin-top: 2%;
+        }
+        .container h2{
+            color: green;
+            text-align: center;
+        }
+        .restbtn{
+             margin: 6px auto;
+                display: flex;
+                padding: 27px 50px;
+                border: none;
+                border-radius: 5px;
+                background: rgba(0, 183, 0, 0.62);
+                color:white;
+               margin-bottom: 50px;
+                font-weight: bold;
+            font-size: 30px;
+        }
+        .restbtn a{
+            color: white;
+            text-decoration: none
+        }
+        
+        .restbtn:hover{
+             padding: 25px 45px;
+             background: rgba(4, 188, 4, 0.92);
+        }
+        .container a.logreg{
+             text-decoration: none;
+                margin-left: 15%;
+                font-family: sans-serif;
+                background: rgba(233, 237, 248, 0.46);
+                padding: 7px;
+                color:#0d0889;
+                border-radius: 5px;
+        }
+        .container a.logreg:hover{
+             color:#0d0889;
+            background:transparent;
+            border: 1px solid blue;
+            box-shadow: 2px 0px 9px 3px blue;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <img src="img/reset.svg" alt="reset" class="rsticon">
+        <h2>Reset Now</h2>
+    
+        <button type="submit" class="restbtn"><a href="reset.html">Reset!</a></button>
+    
+    <a href="index.html" class="logreg">Login!</a>
+    <a href="register.html" class="logreg">Register now!</a>
+   </div>
+</body>
+</html>
